@@ -1,0 +1,15 @@
+RDD --> Resilient distributed data structure. The basic SPARK data structure.
+
+SPARK --> real time data processing framework. An alternative to Apache Hadoop MapReduce which could only handle batch processing, because SPARK can handle both realtime stream data processing and batch processing
+
+Py4j --> PySpark framework for Apache SPARK
+
+foreach() --> This operation is an action. It accepts a function as its argument and applies that particular function on each element in the RDD.
+
+Lambda functions --> they are also called as anonymous functions. A lambda function can accept any number of arguments but the argument can be evaluated over only 1 expression
+
+map() --> It is a built in function that applies a given operation to every element in an iterable 
+
+filter() --> this action returns a new RDD with the filtered RDD
+
+Pick up from here -- https://www.tutorialspoint.com/pyspark/pyspark_broadcast_and_accumulator.htm
